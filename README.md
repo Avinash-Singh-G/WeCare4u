@@ -38,7 +38,7 @@ pip install -r requirements
 streamlit run app.py
 
 # Collab Link:
-<a>"https://colab.research.google.com/drive/12eNsO0x-kemdWWZ0CmsdrFVsmg4ekxrZ#scrollTo=f23iedCm3bII"</a>
+<a>https://colab.research.google.com/drive/12eNsO0x-kemdWWZ0CmsdrFVsmg4ekxrZ#scrollTo=f23iedCm3bII</a>
 
 # Flask
 
