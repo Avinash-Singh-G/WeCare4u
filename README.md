@@ -33,8 +33,8 @@ Most of the pre-existing websites or apps lack accuracy so women generally get m
 
 # Streamlit
 
-cd Streamlit 
-pip install -r requirements
+cd Streamlit <br>
+pip install -r requirements <br>
 streamlit run app.py
 
 # Collab Link:
@@ -42,8 +42,8 @@ streamlit run app.py
 
 # Flask
 
-cd Flask
-pip install -r requirements
+cd Flask  <br>
+pip install -r requirements  <br>
 python  flaskapp.py
 
 
