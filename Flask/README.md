@@ -21,6 +21,7 @@ This will help in recording the changes in her cycle which might be the sign of 
 
 Most of the pre-existing websites or apps lack accuracy so women generally get more confused about their dates and moreover these apps take into account very few features to determine the dates. We take more data into account to provide much more accurate and efficient results. Our other features include specialized **WeCare forums** where women can freely and anonymously discuss their queries. We also have our 24x7 **WeCare chatbot** where women can get answers to their queries anytime.
 
+## USE MOZILLA FIREFOX FOR OPTIMISED RESULTS
 
 # Flask
 
