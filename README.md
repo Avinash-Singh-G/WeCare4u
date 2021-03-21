@@ -51,7 +51,9 @@ The Machine Learning Model is made using Streamlit and was deployed using Heroku
 This also being deployed on Heroku, directly from the Github repositories.
 
 
-
+# Challenges we ran into:
+SSL Certification
+# USE MOZILLA FIREFOX FOR OPTIMISED RESULTS
 
 
 
