@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>Info Page</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{url_for('static',filename='apple-touch-icon.png')}}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{url_for('static',filename='favicon-32x32.png')}}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="{{url_for('static',filename='favicon-16x16.png')}}"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{url_for('static',filename='favicon.ico')}}"
+    />
+    <link rel="manifest" href="{{url_for('static',filename='manifest.json')}}" />
+    <meta
+      name="msapplication-TileImage"
+      content="static/mstile-150x150.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap.min.css')}}">
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='font-awesome.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='page3.css')}}">
+
+    </head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+   <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="#" class="logo" style="color:blueviolet">
+                            <img src="{{url_for('static',filename='apple-touch-icon.png')}}" alt="WeCare" height=32.5vh/> WeCare
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="#menses">Menses</a></li>
+                            <li><a href="#fertility">Days of Fertility</a></li>
+                            <li><a href="#luteal">Luteal Phase</a></li>
+                            <li><a href="#intercourse">Intercourse</a></li>
+                            <li><a href="#bleed">Unusual Bleeding</a></li>
+                            <li><a href="#news">News</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-6 col-md-6 col-sm-6">
+                        <h1 style="color: blueviolet;">We provide the best <strong>prediction</strong><br>for your <strong>periods.</strong><br>Because<br><strong style="font-size: 75px;">WeCare.</strong></h1>
+                        <p></p>
+                       <!-- <a href="#features" class="main-button-slider">Discover More</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ***** Header Text End ***** -->
+    </div>
+    <!-- ***** Welcome Area End ***** -->
+
+     <!-- ***** Home Parallax Start ***** -->
+     <section class="mini" id="work-process">
+        <div class="mini-content">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-3 col-lg-6">
+                        <div class="info">
+                            <h1>Feature Details</h1>
+                            <p> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ***** Mini Box Start ***** -->
+                <div class="row">
+                    <div class="col-lg-2 col-lg-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="{{url_for('static',filename='work-process-item-01.png')}}" alt=""></i>
+                            <strong>Menses</strong>
+                            <span>Length of menses is the number of days for which a period lasts</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-lg-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="{{url_for('static',filename='work-process-item-01.png')}}" alt=""></i>
+                            <strong>Days of fertility</strong>
+                            <span>Most fertile days, usually falls 14 days before the first day of period</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-lg-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="{{url_for('static',filename='work-process-item-01.png')}}" alt=""></i>
+                            <strong>Luteal Phase</strong>
+                            <span>Occurs after ovulation (when your ovaries release an egg) and before your period starts</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-lg-3 col-sm-6 col-6">
+                        <a href="#" class="mini-box">
+                            <i><img src="{{url_for('static',filename='work-process-item-01.png')}}" alt=""></i>
+                            <strong>Intercourse</strong>
+                            <span>Intercourse during fertile window and number of days of intercourse</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-lg-3 col-sm-6 col-6" style="margin-left: auto;">
+                        <a href="#" class="mini-box">
+                            <i><img src="{{url_for('static',filename='work-process-item-01.png')}}" alt=""></i>
+                            <strong>Unusual Bleeding</strong>
+                            <span>Inconsistent blood flow during periods</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-2 col-lg-3 col-sm-6 col-6" style="margin-right: auto;">
+                        <a href="#" class="mini-box">
+                            <i><img src="{{url_for('static',filename='work-process-item-01.png')}}" alt=""></i>
+                            <strong>Others</strong>
+                            <span>High day, Peak day and Post peak days</span>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- ***** Mini Box End ***** -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Home Parallax End ***** -->
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+    <!-- ***** Features Small Start ***** -->
+    <section class="section home-feature" id="menses">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+ <!-- ***** Features Small Item Start ***** -->
+       <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s" style="margin-right: auto; margin-left: auto;">
+               <div class="features-small-item">
+                 <div class="icon">
+                    <i><img src="{{url_for('static',filename='featured-item-01.png')}}" alt=""></i>
+                </div>
+                    <h5 class="features-title">Menses</h5>
+                    <p>The number of days for which a period lasts</p>
+             </div>
+        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Small End ***** -->
+
+
+                        <!-- ***** Features Small Item End ***** -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Small End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section padding-top-70 padding-bottom-0" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <img src="{{url_for('static',filename='left-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+                    <div class="left-heading">
+                        <h2 class="section-title"></h2>
+                    </div>
+                    <div class="left-text">
+                        <p>Menses is the length of methe regular discharge of blood and mucosal tissue from the inner lining of the uterus through the vagina.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section padding-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+                    <div class="left-heading">
+                        <h2 class="section-title"></h2>
+                    </div>
+                    <div class="left-text">
+                        <p>Length of menses: Total number of days periods is experienced.<br>Menses Score Day: The amount of flow of blood experienced.</p>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <img src="{{url_for('static',filename='right-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+
+     <!-- ***** Features Small Start ***** -->
+     <section class="section home-feature" id="fertility">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <!-- ***** Features Small Item Start ***** -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s" style="margin-left: auto; margin-right: auto;">
+                            <div class="features-small-item">
+                                <div class="icon">
+                                    <i><img src="{{url_for('static',filename='featured-item-01.png')}}" alt=""></i>
+                                </div>
+                                <h5 class="features-title">Days of Fertility</h5>
+                                <p>the most fertile days, usually falls 14 days before the first day of period</p>
+                            </div>
+                        </div>
+                        <!-- ***** Features Small Item End ***** -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Small End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section padding-top-70 padding-bottom-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                <img src="{{url_for('static',filename='left-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+                <div class="left-heading">
+                    <h2 class="section-title"></h2>
+                </div>
+                <div class="left-text">
+                    <p>Regular (25-35 days)<br>
+                        Long ( > 35 days)<br>
+                        Short ( < 25 days)<br>
+                        Post hormonal<br>
+                        Pill or injection</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hr"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section padding-bottom-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+                <div class="left-heading">
+                    <h2 class="section-title"></h2>
+                </div>
+                <div class="left-text">
+                    <p>Postpartum (Breastfeeding) <br>
+                        Postpartum (Not breastfeeding)<br>
+                        Post miscarriage<br>
+                        Pre-menopausal</p>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                <img src="{{url_for('static',filename='right-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+ <!-- ***** Features Small Start ***** -->
+ <section class="section home-feature" id="luteal">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <!-- ***** Features Small Item Start ***** -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s" style="margin-left: auto; margin-right: auto;">
+                        <div class="features-small-item">
+                            <div class="icon">
+                                <i><img src="{{url_for('static',filename='featured-item-01.png')}}" alt=""></i>
+                            </div>
+                            <h5 class="features-title">Luteal Phase</h5>
+                            <p>It occurs after ovulation and before your period starts</p>
+                        </div>
+                    </div>
+                    <!-- ***** Features Small Item End ***** -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Small End ***** -->
+
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+<!-- ***** Features Small End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section padding-top-70 padding-bottom-0" >
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+               <img src="{{url_for('static',filename='left-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+           </div>
+           <div class="col-lg-1"></div>
+           <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+               <div class="left-heading">
+                   <h2 class="section-title"></h2>
+               </div>
+               <div class="left-text">
+                   <p>The luteal phase is one stage of your menstrual cycle. It occurs after ovulation (when your ovaries release an egg) and before your period starts. During this time, the lining of your uterus normally gets thicker to prepare for a possible pregnancy.</p>
+                </div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-lg-12">
+               <div class="hr"></div>
+           </div>
+       </div>
+   </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section padding-bottom-100">
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+               <div class="left-heading">
+                   <h2 class="section-title"></h2>
+               </div>
+               <div class="left-text">
+                   <p>The hormonal changes of the luteal phase are associated with common premenstrual symptoms. Many people experience, such as mood changes, headaches, acne, etc.</p>
+                </div>
+           </div>
+           <div class="col-lg-1"></div>
+           <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+               <img src="{{url_for('static',filename='right-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+           </div>
+       </div>
+   </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<section class="section home-feature" id="intercourse">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <!-- ***** Features Small Item Start ***** -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s" style="margin-left: auto; margin-right: auto;">
+                        <div class="features-small-item">
+                            <div class="icon">
+                                <i><img src="{{url_for('static',filename='featured-item-01.png')}}" alt=""></i>
+                            </div>
+                            <h5 class="features-title">Intercourse</h5>
+                            <p>Intercourse during fertile window and number of days of intercourse</p>
+                        </div>
+                    </div>
+                    <!-- ***** Features Small Item End ***** -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Small End ***** -->
+
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+<!-- ***** Features Small End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section padding-top-70 padding-bottom-0" id="menses">
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+               <img src="{{url_for('static',filename='left-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+           </div>
+           <div class="col-lg-1"></div>
+           <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+               <div class="left-heading">
+                   <h2 class="section-title"></h2>
+               </div>
+               <div class="left-text">
+                   <p>Intercourse during fertile window and number of days of intercourse.</p>
+                </div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-lg-12">
+               <div class="hr"></div>
+           </div>
+       </div>
+   </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section padding-bottom-100">
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+               <div class="left-heading">
+                   <h2 class="section-title"></h2>
+               </div>
+               <div class="left-text">
+                   <p>Intercourse during fertile window and number of days of intercourse. Number of days of intercourse is also a determining factor.</p>
+                </div>
+           </div>
+           <div class="col-lg-1"></div>
+           <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+               <img src="{{url_for('static',filename='right-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+           </div>
+       </div>
+   </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<section class="section home-feature" id="bleed">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <!-- ***** Features Small Item Start ***** -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s" style="margin-left: auto; margin-right: auto;">
+                        <div class="features-small-item">
+                            <div class="icon">
+                                <i><img src="{{url_for('static',filename='featured-item-01.png')}}" alt=""></i>
+                            </div>
+                            <h5 class="features-title">Unusual Bleeding</h5>
+                            <p>Inconsistent blood flow during periods</p>
+                        </div>
+                    </div>
+                    <!-- ***** Features Small Item End ***** -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Features Small End ***** -->
+
+               </div>
+           </div>
+       </div>
+   </div>
+</section>
+<!-- ***** Features Small End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section padding-top-70 padding-bottom-0">
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+               <img src="{{url_for('static',filename='left-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+           </div>
+           <div class="col-lg-1"></div>
+           <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
+               <div class="left-heading">
+                   <h2 class="section-title"></h2>
+               </div>
+               <div class="left-text">
+                   <p>Unusual and irregular amount of excessive bleeding. Periods are considered abnormal if they last more than seven days, have less than 24 days or more than 35 days between starting dates, or are very irregular or very heavy. </p>
+                </div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-lg-12">
+               <div class="hr"></div>
+           </div>
+       </div>
+   </div>
+</section>
+<!-- ***** Features Big Item End ***** -->
+
+<!-- ***** Features Big Item Start ***** -->
+<section class="section padding-bottom-100">
+   <div class="container">
+       <div class="row">
+           <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
+               <div class="left-heading">
+                   <h2 class="section-title"></h2>
+               </div>
+               <div class="left-text">
+                   <p>Causes of irregular bleeding can include pregnancy, obesity, uncontrolled diabetes, thyroid problems, side effects from medicines, and cancer. Very heavy periods may be caused by thyroid problems, bleeding disorders, and noncancerous growths in your uterus.</p>
+                </div>
+           </div>
+           <div class="col-lg-1"></div>
+           <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+               <img src="{{url_for('static',filename='right-image.png')}}" class="rounded img-fluid d-block mx-auto" alt="App">
+           </div>
+       </div>
+   </div>
+</section>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- ***** Features Big Item End ***** -->
+<section class="section home-feature" id="bleed">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <!-- ***** Features Small Item Start ***** -->
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s" style="margin-left: auto; margin-right: auto;">
+                        <div class="features-small-item">
+                            <div class="icon">
+                                <i><img src="{{url_for('static',filename='featured-item-01.png')}}" alt=""></i>
+                            </div>
+                            <h5 class="features-title">News</h5>
+                            <p>Latest Women-centric news</p>
+                        </div>
+                    </div>
+                    <!-- ***** Features Small Item End ***** -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
+<section class="section home-feature" id="news">
+    <div class="container">
+        <div class="card-deck">
+            <div class="card" style="width: 18rem;border-radius: 20px; border-color: blueviolet">
+                <div class="card-body">
+                <h5 class="card-title">{{final[2][1]}}</h5>
+                <br>
+                <p class="card-text">{{final[1][1]}}</p><br>
+                <a href="#" class="card-link" style="color: blueviolet;">{{final[0][1]}}</a>
+
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; border-radius: 20px; border-color: blueviolet">
+                <div class="card-body">
+                <h5 class="card-title">{{final[2][2]}}</h5>
+                <br>
+                <p class="card-text">{{final[1][2]}}</p><br>
+                <a href="#" class="card-link" style="color: blueviolet;">{{final[0][2]}}</a>
+
+                </div>
+            </div>
+            <div class="card" style="width: 18rem; border-radius: 20px; border-color: blueviolet;">
+                <div class="card-body">
+                <h5 class="card-title">{{final[2][0]}}</h5>
+                <br>
+                <p class="card-text">{{final[1][0]}}</p><br>
+                <a href="#" class="card-link" style="color: blueviolet;">{{final[0][0]}}</a>
+
+                </div>
+            </div>
+            <br><br>
+
+    </div>
+</section>
+
+<br><br><br><br>
+
+
+
+            
+   <div class="box">
+
+        <p> <strong>WeCare</strong> is made with&nbsp;
+          <svg
+            class="bi bi-suit-heart-fill"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="#9C69E2"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"
+            ></path></svg
+          >&nbsp;by&nbsp;<a
+            class="text-1000"
+            href=""
+            target="_blank"
+            >BANTAN
+          </a></p>
+      </div>
+    
+    <!-- jQuery -->
+    <script src="{{url_for('static',filename='jquery-2.1.0.min.js')}}"></script>
+
+    <!-- Bootstrap -->
+    <script src="{{url_for('static',filename='popper.js')}}"></script>
+    <script src="{{url_for('static',filename='bootstrap.min.js')}}"></script>
+
+    <!-- Plugins -->
+    <script src="{{url_for('static',filename='scrollreveal.min.js')}}"></script>
+    <script src="{{url_for('static',filename='waypoints.min.js')}}"></script>
+    <script src="{{url_for('static',filename='jquery.counterup.min.js')}}"></script>
+    <script src="{{url_for('static',filename='imgfix.min.js')}}"></script>
+    
+    <!-- Global Init -->
+    <script src="{{url_for('static',filename='custom.js')}}"></script>
+
+  </body>
+</html>
