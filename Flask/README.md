@@ -25,9 +25,9 @@ Most of the pre-existing websites or apps lack accuracy so women generally get m
 
 # Flask
 
-cd Flask
-pip install -r requirements
-python  flaskapp.py
+cd Flask  <br>
+pip install -r requirements  <br>
+python  flaskapp.py  <br>
 
 The above command will expose the local port 5000 and the project can be viewed from there. <br>
 The Flask is also used to provide routing solutions for the app. This includes a home page, by the name of index.html, rendered at / route using Flask.
