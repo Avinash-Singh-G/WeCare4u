@@ -33,7 +33,7 @@ The above command will expose the local port 5000 and the project can be viewed 
 The Flask is also used to provide routing solutions for the app. This includes a home page, by the name of index.html, rendered at / route using Flask.
 
 
-
+# USE MOZILLA FIREFOX FOR OPTIMISED RESULTS
 
 
 
