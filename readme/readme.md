@@ -20,19 +20,19 @@
     <img src="images/logo.png" alt="Logo" width="355.630965006" height="160">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">WeCare4U</h3>
 
   <p align="center">
-    project_description
+    Period-Tracking WebApp
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Avinash-Singh-G/WeCare4u"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Avinash-Singh-G/WeCare4u">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Avinash-Singh-G/WeCare4u/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Avinash-Singh-G/WeCare4u/issues">Request Feature</a>
   </p>
 </p>
 
@@ -69,19 +69,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Periods usually arrive every month in a woman’s life. But we all are so busy in our mundane work that we tend to forget our period dates. Moreover, most of the women have such an inconsistent cycle that it is worthless for them to remember their previous dates. Also due to lack of awareness and hesitation in the society many women don’t know the reason and what exactly one should do during menstruation.
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+- <code><img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code> HTML
+- <code><img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code> CSS
+- <code><img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code> Python
+- <code><img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code> GIT
+- <code><img height="35" src="https://github.com/edent/SuperTinyIcons/blob/master/images/svg/github.svg"></code> Github
+- <code><img height="35" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png"></code> Flask
 
 
 <!-- GETTING STARTED -->
@@ -91,38 +90,53 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Things you need to use the software and how to install them.
+* Colab Notebook
   ```sh
-  npm install npm@latest -g
+  https://colab.research.google.com/drive/12eNsO0x-kemdWWZ0CmsdrFVsmg4ekxrZ#scrollTo=f23iedCm3bII
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Avinash-Singh-G/WeCare4u.git
    ```
-2. Install NPM packages
+2. Flask
    ```sh
-   npm install
+   cd Flask  <br>
+   pip install -r requirements  <br>
+   python  flaskapp.py
+   ```
+3. Streamlit
+   ```sh
+   cd Streamlit <br>
+   pip install -r requirements <br>
+   streamlit run app.py
    ```
 
+## Deployment 
+
+The project has been deployed as a 2-part project.
+The Machine Learning Model is made using Streamlit and was deployed using Heroku. The main frontend for the website was made by using Flask as a backend and Jinga as its templating engine.
+This also being deployed on Heroku, directly from the Github repositories.
+
+
+### USE MOZILLA FIREFOX FOR OPTIMISED RESULTS
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+This period tracking webapp will help in recording the changes in her cycle which might be the sign of a potentially dangerous health issue. Furthermore, it will also help her to know more about her body, mood swings and to avoid sudden and severe period cramps. We also provide the estimated day of ovulation so that a woman could know when we can conceive. 
+Most of the pre-existing websites or apps lack accuracy so women generally get more confused about their dates and moreover these apps take into account very few features to determine the dates. We take more data into account to provide much more accurate and efficient results. Our other features include specialized **WeCare forums** where women can freely and anonymously discuss their queries. We also have our 24x7 **WeCare chatbot** where women can get answers to their queries anytime.
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Avinash-Singh-G/WeCare4u/issues) for a list of proposed features (and known issues).
 
 
 
@@ -149,19 +163,20 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Avinash Singh - [@Aavinashh__](https://twitter.com/Aavinashh__) - avinashsingh2161@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Avinash-Singh-G/WeCare4u](https://github.com/Avinash-Singh-G/WeCare4u)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
-
+* [Bhavya Goel](https://github.com/bhavyagoel)
+* [Nimesh Johari](https://github.com/NimeshJohari02)
+* [Aman Sharma](https://github.com/arcAman07)
+* [Nikita Bisht](https://github.com/NikitaBisht2605)
+* [Tanmay Vyas](https://github.com/Tanmay000009)
 
 <p align="center">
 	With :heart: by <a href="https://ietvit.tech/" target="_blank">Team Fourth Dimension, IET-VIT</a>
