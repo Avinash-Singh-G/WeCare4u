@@ -104,14 +104,14 @@ Things you need to use the software and how to install them.
    ```
 2. Flask
    ```sh
-   cd Flask  <br>
-   pip install -r requirements  <br>
+   cd Flask  
+   pip install -r requirements  
    python  flaskapp.py
    ```
 3. Streamlit
    ```sh
-   cd Streamlit <br>
-   pip install -r requirements <br>
+   cd Streamlit 
+   pip install -r requirements 
    streamlit run app.py
    ```
 
@@ -122,7 +122,7 @@ The Machine Learning Model is made using Streamlit and was deployed using Heroku
 This also being deployed on Heroku, directly from the Github repositories.
 
 
-### USE MOZILLA FIREFOX FOR OPTIMISED RESULTS
+### Use MOZILLA FIREFOX for optimised results
 
 
 <!-- USAGE EXAMPLES -->
