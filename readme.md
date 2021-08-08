@@ -175,9 +175,10 @@ Project Link: [https://github.com/Avinash-Singh-G/WeCare4u](https://github.com/A
 
 * [Bhavya Goel](https://github.com/bhavyagoel)
 * [Nimesh Johari](https://github.com/NimeshJohari02)
+* [Tanmay Vyas](https://github.com/Tanmay000009)
 * [Aman Sharma](https://github.com/arcAman07)
 * [Nikita Bisht](https://github.com/NikitaBisht2605)
-* [Tanmay Vyas](https://github.com/Tanmay000009)
+
 
 <p align="center">
 	With :heart: by <a href="https://ietvit.tech/" target="_blank">Team Fourth Dimension, IET-VIT</a>
