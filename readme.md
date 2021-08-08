@@ -164,6 +164,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Avinash Singh - [@Aavinashh__](https://twitter.com/Aavinashh__) - avinashsingh2161@gmail.com
+
 Tanmay Vyas - [@TanmaySuchANoob](https://twitter.com/TanmaySuchANoob) - tanmayvyas09@gmail.com
 
 Project Link: [https://github.com/Avinash-Singh-G/WeCare4u](https://github.com/Avinash-Singh-G/WeCare4u)
