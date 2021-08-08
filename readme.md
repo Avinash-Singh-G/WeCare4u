@@ -165,6 +165,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Avinash Singh - [@Aavinashh__](https://twitter.com/Aavinashh__) - avinashsingh2161@gmail.com
 
+Tanmay Vyas - [@TanmaySuchANoob](https://twitter.com/TanmaySuchANoob) - tanmayvyas09@gmail.com
+
+Aman Sharma - [@Amansha55480432](https://twitter.com/Amansha55480432) - amananytime07@gmail.com
+
 Project Link: [https://github.com/Avinash-Singh-G/WeCare4u](https://github.com/Avinash-Singh-G/WeCare4u)
 
 
@@ -174,9 +178,10 @@ Project Link: [https://github.com/Avinash-Singh-G/WeCare4u](https://github.com/A
 
 * [Bhavya Goel](https://github.com/bhavyagoel)
 * [Nimesh Johari](https://github.com/NimeshJohari02)
+* [Tanmay Vyas](https://github.com/Tanmay000009)
 * [Aman Sharma](https://github.com/arcAman07)
 * [Nikita Bisht](https://github.com/NikitaBisht2605)
-* [Tanmay Vyas](https://github.com/Tanmay000009)
+
 
 <p align="center">
 	With :heart: by <a href="https://ietvit.tech/" target="_blank">Team Fourth Dimension, IET-VIT</a>
