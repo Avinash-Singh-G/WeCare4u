@@ -173,6 +173,8 @@ Nikita Bisht - [@NikitaB28116499](https://twitter.com/NikitaB28116499) - nikitab
 
 Nimesh Johari - [@NimeshJohari](https://twitter.com/NimeshJohari?s=09) - nimeshjohari95@gmail.com
 
+Bhavya Goel - [@GoelBhavya](https://twitter.com/GoelBhavya?s=09) - bgoel4132@gmail.com
+
 Project Link: [https://github.com/Avinash-Singh-G/WeCare4u](https://github.com/Avinash-Singh-G/WeCare4u)
 
 
