@@ -169,6 +169,10 @@ Tanmay Vyas - [@TanmaySuchANoob](https://twitter.com/TanmaySuchANoob) - tanmayvy
 
 Aman Sharma - [@Amansha55480432](https://twitter.com/Amansha55480432) - amananytime07@gmail.com
 
+Nikita Bisht - [@NikitaB28116499](https://twitter.com/NikitaB28116499) - nikitabisht2605@gmail.com
+
+Nimesh Johari - [@NimeshJohari](https://twitter.com/NimeshJohari?s=09) - nimeshjohari95@gmail.com
+
 Project Link: [https://github.com/Avinash-Singh-G/WeCare4u](https://github.com/Avinash-Singh-G/WeCare4u)
 
 
